@@ -42,7 +42,7 @@ function Register() {
           <div className="title flex flex-col items-center">
             <h4 className="text-4xl font-bold ">Registeri</h4>
             <span className="py-4 text-xl w-2/3 text-center text-gray-500">
-            happy to join you!
+            happy to join you..!
             </span>
           </div>
           <form className="py-1" onSubmit={formik.handleSubmit}>
