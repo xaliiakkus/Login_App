@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
-import connect from '../server/database/conn'
+import connect from '../server/database/conn.js'
 const app = express();
 /** Middlewares Korsan Yazılımcılar Kullandığımız Kodların  Coğunu Göremez */
 app.use(express.json());
