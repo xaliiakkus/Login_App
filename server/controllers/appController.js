@@ -1,6 +1,6 @@
 import UserModule from '../model/User.model.js';
 import bcrypt from 'bcrypt'
-import { Jwt } from 'jsonwebtoken'
+import Jwt from 'jsonwebtoken'
 
 /** POST : http://localhost:8000/api/register  */
 export async function register(req, res) {
